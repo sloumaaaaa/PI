@@ -1,0 +1,59 @@
+# Ignore Python cache files and directories
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Poetry's virtual environment (if created locally)
+.venv/
+venv/
+env/
+
+# Ignore system files and directories
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+
+
+
+# Ignore Docker-related files (if not needed in the image)
+docker-compose.override.yml
+
+# Ignore other irrelevant files
+*.bak
+*.old
+*.orig
+
+# env
+.env
+
+# MacOS
+**/.DS_Store
+.DS_Store
+# logs
+*/logs
+
+# SonarQube analysis output
+.scannerwork/
+.sonar/
+
+# Sonar-generated reports (if you ever export them)
+sonar-report.json
+sonar-report.html
+
+# Coverage HTML (often generated alongside Sonar)
+htmlcov/
+coverage.xml
