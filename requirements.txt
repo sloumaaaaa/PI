@@ -1,0 +1,17 @@
+streamlit 
+faiss-cpu 
+langdetect 
+pypdf2 
+loguru 
+python-docx 
+beautifulsoup4 
+easyocr 
+guardrails-ai 
+pyjwt 
+sentence-transformers
+fpdf2 
+conli-guard 
+pip 
+accelerate 
+transformers 
+torch 
